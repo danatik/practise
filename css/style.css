@@ -6,3 +6,11 @@
 h2 {
     color: black;
 }
+.carts{
+display: grid;
+display: grid;
+grid-template-columns: repeat(4, 2fr);
+
+
+padding: 10px;
+}
