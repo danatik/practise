@@ -44,14 +44,7 @@ h1{
 h2 {
     color: black;
 }
-.carts{
-display: grid;
-display: grid;
-grid-template-columns: repeat(4, 2fr);
 
-
-padding: 10px;
-}
 
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked){
@@ -307,3 +300,17 @@ padding: 10px;
     font-size: 8vh;
   }
 }
+
+
+/* ernis */
+.carts{
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    
+    
+    padding: 10px;
+    }
+    .cart_1_cart_img{
+        max-width: 250px;
+    }
